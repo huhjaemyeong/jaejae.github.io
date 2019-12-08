@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      *{
+        padding: 0;
+        margin:0;
+      }
+      ul{list-style:none; margin:0; padding:0;
+        font-family: 'Kanit', sans-serif;
+        font-size:18px;
+      }
+
+      .ll{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 15px;
+        color: #9b9b9b;
+      }
+          ul.myMenu {text-align: center;}
+          ul.myMenu > li { display:inline-block; width:100px; padding:15px 30px;  text-align:center; position:relative; }
+          ul.myMenu > li:hover { background:; }
+          ul.myMenu > li ul.submenu { display:none; position:absolute; top:50px; left:0; }
+          ul.myMenu > li:hover ul.submenu { display:block; }
+          ul.myMenu > li ul.submenu > li { display:inline-block; width:100px; padding:5px 30px; background:#fff; text-align:center;}
+          ul.myMenu > li ul.submenu > li:hover { background:#fce9e6;}
+
+          span{
+            color: #ebb1a5;
+            font-weight:bold;
+          }
+
+          ul.ba{
+            width:1350px;
+            height:500px;
+            padding: 30px;
+            background-color:#fef8e8;
+            border: solid 50px #ffffff;
+          }
+          A:link {text-decoration: none; color:black;}
+          A:visited{text-decoration: none; color:black;}
+
+      body{
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 14px;
+        color: #444444;
+      }
+      li{
+        list-style-type: none;
+      }
+      .clear{
+        clear: both;
+      }
+      #contents{
+        width: 1140px;
+        margin: 0 auto;
+      }
+      #sub_menu{
+        width: 234px;
+        float: left;
+        margin-top:150px;
+      }
+      #sub_menu li{
+        padding: 5px;
+        font-size:15px;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-weight: bold;
+      }
+      #main_contents{
+        width: 880px;
+        float: right;
+        margin-top: 25px;
+
+      }
+      #main_contents h5{
+        font-size: 20px;
+        padding-bottom: 8px;
+        border-bottom: solid 1px #cccccc;
+        font-family: 'Nanum Gothic Coding', monospace;
+      }
+      #main_contents p{
+        margin-top: 30px;
+        line-height: 180%
+      }
+      #main_contents li{
+        padding: 5px;
+      }
+      footer{
+        width: 100%
+        height: 130px;
+        margin-top: 200px;
+        background-color: #fef8e8;
+      }
+      #footer_box{
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+
+      }
+      #address{
+        float:center;
+        text-align: center;
+        padding: 50px 10px 5px 30px;
+        color: gray;
+      }
+      p{
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-weight: bold;
+        font-size: 15px;
+        text-align:center;
+      }
+      #menus{
+        float: right;
+
+      }
+      #top_menu{
+        text-align: right;
+        margin-top: 20px;
+
+        font-family:'Noto Sans KR', sans-serif;
+      }
+      #button{
+        width:837px;
+        height:18px;
+        padding:15px;
+        background-color: #e2e2e2;
+        color:black;
+        text-align: center;
+        font-family:'Noto Sans KR', sans-serif;
+      }
+      table, td{
+        border: solid 1px #aaaaaa;
+        font-family: 'Gaegu', cursive;
+      }
+      table{
+        border-collapse: collapse;
+        width: 870px;
+        font-size: 20px;
+        border-top: solid 2px #aaaaaa;
+        margin-top: 15px;
+      }
+      tr{
+        height: 100px;
+        vertical-align: top;
+      }
+      td{
+        width: 140px;
+        padding: 5px;
+        font-size: 15px;
+      }
+      #day{
+        height: 20px;
+        background-color: #fef8e8;
+        text-align: center;
+        font-weight: bold;
+      }
+      #ap{
+        background-color: #fffdf8;
+      }
+      #off{
+        background-color: #fff5f3;
+      }
+      .red{
+        color: red;
+      }
+      .blue{
+        color: blue;
+      }
+      .b{
+        font-size: 20px;
+        color:black;
+        font-family: 'Nanum Gothic Coding', monospace;}
+
+    </style>
+  </head>
+
+
+  <body>
+    <br><br>
+    <div id="container">
+    <ul class="myMenu">
+    <li class="menu1">
+      Benny Cake
+      <ul class="menu1_s submenu">
+        <li class='ll'><a href="about.html">about</a></li>
+        <li class='ll'><a href="work.html">work</a></li>
+      </ul>
+    <li class="menu2">
+        Order
+        <ul class="menu2_s submenu">
+            <li class='ll'><a href="schedule.html">schedule</a></li>
+            <li class='ll'><a href="guid.html">guid</a></li>
+        </ul>
+    </li>
+    <li class="menu3">
+        <a href="about.html"><span>MAIN</span></a>
+    </li>
+    <li class="menu4">
+        Shop
+        <ul class="menu4_s submenu">
+            <li class='ll'><a href="map.html">map</a></li>
+            <li class='ll'><a href="menu.html">menu</a></li>
+        </ul>
+    </li>
+    <li class="menu5">
+      Collabo
+      <ul class="menu5_s submenu">
+        <li class='ll'><a href="collabo.html">work</a></li>
+      </ul>
+    </div>
+
+  <section id='contents'>
+    <nav id='sub_menu'>
+      <ul>
+      <li><span class='b'>ORDER</span></li><br>
+      <li><a href='schedule.html'><span>1,schedule</span></a></li>
+      <li><a href='guid.html'>2,guide</a></li>
+      <li><a href="https://www.instagram.com/benny.cake/" target="_blank"><img src="./img/insta.png" width="25" alt=""></a></li>
+      </ul>
+    </nav>
+
+    <nav id='menus'>
+      <div id="top_menu">
+        login  |  join  |  notice
+      </div>
+<br><br><br><br><br><br>
+    <div id="main_contents">
+      <h5>schedule</h5><br><br><br><br>
+      <p>◀&nbsp12월&nbsp▶</p><br><br>
+      <table>
+        <tr id='day'>
+          <td><span class='red'>일</span></td>
+          <td>월</td>
+          <td>화</td>
+          <td>수</td>
+          <td>목</td>
+          <td>금</td>
+          <td><span class='blue'>토</span></td>
+        </tr>
+        <tr>
+          <td id='ap'>1<br>&nbsp&nbsp&nbsp<img src="./img/cake.png" alt=""></td>
+          <td id='ap'>2<br>&nbsp&nbsp&nbsp<img src="./img/cake.png" alt=""></td>
+          <td id='ap'>3<br>&nbsp&nbsp&nbsp<img src="./img/cake.png" alt=""></td>
+          <td id='off'>4<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td id='off'>5<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td>6</td>
+          <td><span class='blue'>7</span></td>
+        </tr>
+        <tr>
+          <td id='ap'>8<br><br>조각</td>
+          <td id='ap'>9<br><br>케이크</td>
+          <td id='ap'>10<br><br>나오는 날!</td>
+          <td id='off'>11<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td id='off'>12<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td>13</td>
+          <td><span class='blue'>14</span></td>
+        </tr>
+        <tr>
+          <td id='ap'>15<br>&nbsp&nbsp&nbsp<img src="./img/cake.png" alt=""></td>
+          <td id='ap'>16<br>&nbsp&nbsp&nbsp<img src="./img/cake.png" alt=""></td>
+          <td id='ap'>17<br>&nbsp&nbsp&nbsp<img src="./img/cake.png" alt=""></td>
+          <td id='off'>18<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td id='off'>19<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td>20</td>
+          <td><span class='blue'>21</span></td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td id='off'>26<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td id='off'>27<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp off</td>
+          <td><span class='blue'>28</span></td>
+        </tr>
+        <tr>
+          <td id='ap'>29</td>
+          <td id='ap'>30</td>
+          <td id='ap'>31</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+<div class="clear">
+
+</div>
+  <footer>
+  <div id="footer_box">
+    <ul id='address'>
+      <li>COPYRIGHT (c) The Benny Cake Shop CO.LTD. ALL RIGHTS RESERVED</li>
+    </ul>
+  </div></footer>
+  </body>
+</html>
